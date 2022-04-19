@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+#ind{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url('/images/1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navBar{
+	width: 90%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navBar h2{
+	font-weight: 100;
+	cursor: pointer;
+	color: white;
+}
+.navBar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+	position: relative;
+}
+.navBar ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+#hea{
+    font-size: 50px;
+    width: 600px;
+    margin: auto;
+    display: block;
+    margin-top: 200px;
+    color: white;
+    margin-left: 35%;
+}
+.main{
+    color: white;
+    width: 700px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+/* .buttons{
+    margin: auto;
+    width: 800px;
+    display: block;
+    margin-top: 30px;
+    justify-content: space-evenly;
+
+} */
+#button1{
+  border: 2px solid #009688;
+  background: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 40px;
+  margin-left: 450px;
+  margin-top: 30px;
+  width: 250px;
+  cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+#button2{
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 100px;
+    width: 250px;
+    cursor: pointer;
+	position: relative;
+	overflow: hidden;
+  }
+  span{
+	background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+
+button:hover span{
+	width: 100%;
+}
+
+button:hover{
+	border: none;
+}
+
+/* About page */
+#about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url('/images/gym.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#abouth2{
+    width: 200px;
+    margin: auto;
+    display: block;
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    margin-top: 15%;
+}
+.container{
+    width: 700px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    height: 200px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+#abouth2{
+    width: 200px;
+    margin: auto;
+    display: block;
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    margin-top: 15%;
+}
+
+/* generall li hover */
+li{
+    transition: transform .2s;
+}
+li:hover{
+    background-color: #009688;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+/* Register */
+#reg{
+    width: 200px;
+    margin: auto;
+    display: block;
+    font-size: 40px;
+    color: white;
+    font-weight:300;
+    margin-top: 5%;
+}
+form{
+    margin-top: 20px;
+}
+#inp1{
+    margin-left: 35%;
+}
+#inp2{
+    margin-left: 10px;
+}
+#inp3{
+    margin-top: 10px;
+    margin-left: 35%;
+}
+#inp4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#inp5{
+    margin-top: 10px;
+    margin-left: 35%;
+}
+#inp6{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#inp7{
+    margin-top: 10px;
+    margin-left: 35%;
+}
+#inp8{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cont{
+    height: 35px;
+    width: 260px;
+    padding-left: 10px;
+    border-radius: 2px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#boxes{
+    margin-left: 36%;
+    display: flex;
+    flex-direction: column;
+}
+#ch1{
+    margin-top: 10px;
+}
+#ch2{
+    margin-top: 5px;
+}
+input#c1{
+    width: 15px;
+    height: 15px;
+}
+input#c2{
+    width: 15px;
+    height: 15px;
+}
+input[type=checkbox]:after {
+    content: attr('Male');
+    color: white;
+}
+#sub{
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 35%;
+    width: 200px;
+    margin-top: 10px;
+    height: 50px;
+    cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.subBanner{
+	width: 100%;
+	height: 50vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/images/gym.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.icons{
+    width: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+.icons .fa{
+	color: #009688;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+.fa-heart-o, .fa-phone, .fa-envelope-o{
+	color: #009688;
+}
+

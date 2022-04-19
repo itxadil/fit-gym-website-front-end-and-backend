@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body id="about">
+    <div class="navBar">
+        <h2>Fit-Me</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+        </ul>
+    </div>
+    <h1 id="reg">Registeration</h1>
+    <div id="formdiv"></div>
+    <form action="/register.html" method="post">
+        <input type="text" id="inp1" class="cont" placeholder="Enter name" autocomplete="off" name="in1">
+        <input type="text" id="inp2" class="cont" placeholder="Enter age" autocomplete="off" name="in2">
+        <h3 style="color: white;font-size: 20px;margin-left: 36%;margin-top: 10px;">Gender</h3>
+        <div id="boxes">
+            <div id="ch1">
+        <label style="color: white;margin-left: 5px;"><input type="radio" id="2" name="gender" value="male">Male</label>
+        <!-- <label for="c1" style="color: white;">Male</label> -->
+          </div>
+          <div id="ch2">
+        <label style="color: white;margin-left: 5px;"><input type="radio" id="3" name="gender" value="female">Female</label>
+        <!-- <label for="c2" style="color: white;">Female</label> -->
+         </div>
+        </div>
+        <input type="text" id="inp3" class="cont" placeholder="Enter Height" autocomplete="off" name="in5">
+        <input type="text" id="inp4" class="cont" placeholder="Enter Weight" autocomplete="off" name="in6">
+        <input type="text" id="inp5" class="cont" placeholder="Enter Address" autocomplete="off" name="in7">
+        <input type="text" id="inp6" class="cont" placeholder="Enter Phone Number" autocomplete="off" name="in8">
+        <input type="text" id="inp7" class="cont" placeholder="Enter Member Id" autocomplete="off" name="in9">
+        <input type="text" id="inp8" class="cont" placeholder="Enter BMI" autocomplete="off" name="in10">
+        <br>
+        <button type="submit" id="sub" onclick="displayRadioValue()">Register</button>
+        <div id="result"></div>
+    </form>
+    </div>
+</body>
+</html>
